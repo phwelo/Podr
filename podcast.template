@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" version="2.0">
+    <channel>
+        <link>%mainpage%</link>
+        <language>en-us</language>
+        <copyright>©2015</copyright>
+        <webMaster>%casteremail% (%castername%)</webMaster>
+        <managingEditor>%casteremail% (%castername%)</managingEditor>
+        <image>
+            <url>%castimage%</url>
+            <title>%title%</title>
+            <link>%mainpage%</link>
+        </image>
+        <itunes:owner>
+            <itunes:name>%castername%</itunes:name>
+            <itunes:email>%casteremail%</itunes:email>
+        </itunes:owner>
+        <itunes:category text="%iCategory%">
+            <itunes:category text="%iSubCat%" />
+        </itunes:category>
+        <itunes:keywords>%keywords%</itunes:keywords>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:image href="%castimage%" />
+        <atom:link href="%xmlurl%" rel="self" type="application/rss+xml" />
+        <pubDate>Sun, 01 Jan 2012 00:00:00 EST</pubDate>
+        <title>%title%</title>
+        <itunes:author>%castername%</itunes:author>
+        <description>$description%</description>
+        <itunes:summary>%description%</itunes:summary>
+        <itunes:subtitle>%description%</itunes:subtitle>
+        <lastBuildDate>Thu, 02 Feb 2012 00:00:00 EST</lastBuildDate>
+        ^-^<item>
+            <title>!title!</title>
+            <description>!description!</description>
+            <itunes:summary>!description!</itunes:summary>
+            <itunes:subtitle>!description!</itunes:subtitle>
+            <itunesu:category itunesu:code="1310" />
+            <enclosure url="!mp3url!" type="audio/mpeg" length="1" />
+            <guid>!mp3url!</guid>
+            <itunes:duration>1:00:00</itunes:duration>
+            <pubDate>Thu, 02 Feb 2012 00:00:00 EST</pubDate>
+        </item>^-^
+    </channel>
+</rss>
