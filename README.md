@@ -1,4 +1,5 @@
 # Podr
+#### Just a quick project to help a friend out
 ##KPSU Podcast Generator
 
 ###Configuration
